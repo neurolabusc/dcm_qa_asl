@@ -58,6 +58,7 @@
 	"TagPlaneUlShape": 1,
 	"TagPlaneSPositionDTra": -79.2603,
 	"TagPlaneSNormalDTra": 0.999999,
+	"ArterialSpinLabelingType": "PCASL",
 	"PartialFourier": 0.75,
 	"BaseResolution": 64,
 	"ShimSetting": [
@@ -74,7 +75,10 @@
 	"ReceiveCoilName": "HeadNeck_20",
 	"ReceiveCoilActiveElements": "HE1-4",
 	"PulseSequenceDetails": "%CustomerSeq%\\to_ep2d_VEPCASL",
+	"CoilCombinationMethod": "Sum of Squares",
 	"ConsistencyInfo": "N4_VE11C_LATEST_20160120",
+	"MatrixCoilMode": "SENSE",
+	"RepetitionTimePreparation": 4100,
 	"PercentPhaseFOV": 100,
 	"PercentSampling": 100,
 	"EchoTrainLength": 48,
@@ -120,7 +124,8 @@
 		0,
 		1,
 		0	],
+	"ImageOrientationText": "Tra",
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20210308"
+	"ConversionSoftwareVersion": "v1.0.20211006"
 }

@@ -33,6 +33,7 @@
 	"RFGap": 0.00036,
 	"MeanGzx10": 6,
 	"T1": 0.85,
+	"ArterialSpinLabelingType": "PCASL",
 	"PartialFourier": 1,
 	"BaseResolution": 96,
 	"ShimSetting": [
@@ -49,7 +50,10 @@
 	"ReceiveCoilName": "HeadNeck_20",
 	"ReceiveCoilActiveElements": "HE1-4",
 	"PulseSequenceDetails": "%CustomerSeq%\\tgse_pcasl_ve11c",
+	"CoilCombinationMethod": "Sum of Squares",
 	"ConsistencyInfo": "N4_VE11C_LATEST_20160120",
+	"MatrixCoilMode": "SENSE",
+	"RepetitionTimePreparation": 3480,
 	"PercentPhaseFOV": 100,
 	"PercentSampling": 85.4167,
 	"EchoTrainLength": 41,
@@ -66,7 +70,8 @@
 		0,
 		1,
 		0	],
+	"ImageOrientationText": "Tra>Sag(-3.6)",
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20201030"
+	"ConversionSoftwareVersion": "v1.0.20211006"
 }

@@ -32,6 +32,7 @@
 	"FlipAngle": 180,
 	"BolusDuration": 0.7,
 	"InversionTime": 1.99,
+	"ArterialSpinLabelingType": "PASL",
 	"PartialFourier": 1,
 	"BaseResolution": 96,
 	"ShimSetting": [
@@ -49,7 +50,9 @@
 	"ReceiveCoilName": "HeadNeck_20",
 	"ReceiveCoilActiveElements": "HE1-4",
 	"PulseSequenceDetails": "%SiemensSeq%\\tgse_pasl",
+	"CoilCombinationMethod": "Adaptive Combine",
 	"ConsistencyInfo": "N4_VE11C_LATEST_20160120",
+	"MatrixCoilMode": "SENSE",
 	"PercentPhaseFOV": 100,
 	"PercentSampling": 95.8333,
 	"EchoTrainLength": 23,
@@ -66,7 +69,8 @@
 		0,
 		1,
 		0	],
+	"ImageOrientationText": "Tra>Sag(-3.6)",
 	"InPlanePhaseEncodingDirectionDICOM": "ROW",
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20201030"
+	"ConversionSoftwareVersion": "v1.0.20211006"
 }

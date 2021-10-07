@@ -28,6 +28,7 @@
 	"SAR": 0.0645192,
 	"EchoTime": 0.00411,
 	"RepetitionTime": 2.25,
+	"SpoilingState": true,
 	"InversionTime": 0.925,
 	"FlipAngle": 9,
 	"PartialFourier": 1,
@@ -47,7 +48,9 @@
 	"ReceiveCoilActiveElements": "HE1-4;NE1,2",
 	"PulseSequenceDetails": "%SiemensSeq%\\tfl",
 	"RefLinesPE": 80,
+	"CoilCombinationMethod": "Adaptive Combine",
 	"ConsistencyInfo": "N4_VE11C_LATEST_20160120",
+	"MatrixCoilMode": "GRAPPA",
 	"PercentPhaseFOV": 100,
 	"PercentSampling": 100,
 	"PhaseEncodingSteps": 255,
@@ -63,7 +66,8 @@
 		-0.00193671,
 		0.0514306,
 		-0.998675	],
+	"ImageOrientationText": "Sag>Cor(-1.6)>Tra(0.0)",
 	"InPlanePhaseEncodingDirectionDICOM": "ROW",
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20201030"
+	"ConversionSoftwareVersion": "v1.0.20211006"
 }
