@@ -33,6 +33,10 @@
 	"BolusDuration": 0.7,
 	"InversionTime": 1.99,
 	"ArterialSpinLabelingType": "PASL",
+	"AcquisitionVoxelSize": [
+		2.5,
+		2.5,
+		3.09	],
 	"PartialFourier": 1,
 	"BaseResolution": 96,
 	"ShimSetting": [
@@ -72,5 +76,5 @@
 	"ImageOrientationText": "Tra>Sag(-3.6)",
 	"InPlanePhaseEncodingDirectionDICOM": "ROW",
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20211006"
+	"ConversionSoftwareVersion": "v1.0.20220606"
 }

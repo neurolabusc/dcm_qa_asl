@@ -59,6 +59,10 @@
 	"TagPlaneSPositionDTra": -79.2603,
 	"TagPlaneSNormalDTra": 0.999999,
 	"ArterialSpinLabelingType": "PCASL",
+	"AcquisitionVoxelSize": [
+		3.4375,
+		3.4375,
+		4.5	],
 	"PartialFourier": 0.75,
 	"BaseResolution": 64,
 	"ShimSetting": [
@@ -127,5 +131,5 @@
 	"ImageOrientationText": "Tra",
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20211006"
+	"ConversionSoftwareVersion": "v1.0.20220606"
 }

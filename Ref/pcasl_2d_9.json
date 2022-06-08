@@ -37,6 +37,10 @@
 	"MeanGzx10": 6,
 	"PhiAdjust": 100,
 	"ArterialSpinLabelingType": "PCASL",
+	"AcquisitionVoxelSize": [
+		3,
+		3,
+		5	],
 	"PartialFourier": 1,
 	"BaseResolution": 72,
 	"ShimSetting": [
@@ -103,5 +107,5 @@
 	"ImageOrientationText": "Tra>Sag(-3.6)",
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20211006"
+	"ConversionSoftwareVersion": "v1.0.20220606"
 }
