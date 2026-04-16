@@ -1,7 +1,7 @@
 {
 	"Modality": "MR",
 	"MagneticFieldStrength": 3,
-	"ImagingFrequency": 123.255,
+	"ImagingFrequency": 123.255339,
 	"Manufacturer": "Siemens",
 	"ManufacturersModelName": "Prisma_fit",
 	"InstitutionName": "Palmetto Health Richland",
@@ -9,11 +9,12 @@
 	"InstitutionAddress": "Medical Center Dr 5,Columbia,SC,US,29203",
 	"DeviceSerialNumber": "67060",
 	"StationName": "MRC35131",
-	"BodyPartExamined": "BRAIN",
+	"BodyPart": "BRAIN",
 	"PatientPosition": "HFS",
 	"ProcedureStepDescription": "FMRIB Developer^Tom Okell",
 	"SoftwareVersions": "syngo MR E11",
 	"MRAcquisitionType": "3D",
+	"StudyDescription": "FMRIB Developer^Tom Okell",
 	"SeriesDescription": "jw_tgse_PCASL_singleShot_6PLDs_8Averages",
 	"ProtocolName": "jw_tgse_PCASL_singleShot_6PLDs_8Averages",
 	"ScanningSequence": "EP",
@@ -21,12 +22,17 @@
 	"ScanOptions": "SAT3\\FS",
 	"SequenceName": "tgse3d1_1260",
 	"ImageType": ["ORIGINAL", "PRIMARY", "ASL", "NONE", "ND", "MOSAIC"],
+	"NonlinearGradientCorrection": false,
 	"SeriesNumber": 20,
 	"AcquisitionTime": "14:19:50.260000",
 	"AcquisitionNumber": 1,
 	"SliceThickness": 5,
 	"SpacingBetweenSlices": 5,
 	"SAR": 0.56905,
+	"TablePosition": [
+		0,
+		0,
+		-0	],
 	"EchoTime": 0.03654,
 	"RepetitionTime": 3.71,
 	"SpoilingState": true,
@@ -79,7 +85,6 @@
 	"ReconMatrixPE": 64,
 	"PixelBandwidth": 2300,
 	"DwellTime": 3.4e-06,
-	"PhaseEncodingDirection": "j-",
 	"ImageOrientationPatientDICOM": [
 		1,
 		0,
@@ -89,6 +94,7 @@
 		0	],
 	"ImageOrientationText": "Tra",
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
+	"BidsGuess": ["perf","_acq-tgse3_run-20_asl"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20220606"
+	"ConversionSoftwareVersion": "v1.0.20260416"
 }
