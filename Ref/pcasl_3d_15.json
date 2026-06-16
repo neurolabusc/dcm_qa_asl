@@ -41,7 +41,6 @@
 	"MeanGzx10": 6,
 	"T1": 0.85,
 	"NumRFBlocks": 82,
-	"LabelingDuration": 1.5088,
 	"ArterialSpinLabelingType": "PCASL",
 	"AcquisitionVoxelSize": [
 		2.5,
