@@ -19,6 +19,7 @@
 	"ProtocolName": "pcasl_3d",
 	"ScanningSequence": "EP",
 	"SequenceVariant": "SK",
+	"PulseSequenceType": "Gradient Echo EPI",
 	"ScanOptions": "FS",
 	"SequenceName": "tgse3d1_7544",
 	"ImageType": ["ORIGINAL", "PRIMARY", "ASL", "NONE", "ND", "MOSAIC"],
@@ -41,13 +42,11 @@
 	"MeanGzx10": 6,
 	"T1": 0.85,
 	"NumRFBlocks": 82,
-	"LabelingDuration": 1.5088,
 	"ArterialSpinLabelingType": "PCASL",
 	"AcquisitionVoxelSize": [
 		2.5,
 		2.5,
 		3.09	],
-	"PartialFourier": 1,
 	"BaseResolution": 96,
 	"ShimSetting": [
 		6769,
@@ -73,8 +72,11 @@
 	"PhaseEncodingSteps": 82,
 	"AcquisitionMatrixPE": 82,
 	"ReconMatrixPE": 96,
+	"ParallelReductionFactorInPlane": 1,
+	"ParallelReductionFactorOutOfPlane": 1,
 	"PixelBandwidth": 2170,
 	"DwellTime": 2.4e-06,
+	"PhaseEncodingDirection": "j-",
 	"ImageOrientationPatientDICOM": [
 		0.998027,
 		0,
@@ -86,5 +88,5 @@
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"BidsGuess": ["perf","_acq-tgse3_run-15_asl"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20260416"
+	"ConversionSoftwareVersion": "v1.0.20260620"
 }

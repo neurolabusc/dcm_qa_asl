@@ -19,6 +19,7 @@
 	"ProtocolName": "to_ep2d_PCASL",
 	"ScanningSequence": "EP",
 	"SequenceVariant": "SK",
+	"PulseSequenceType": "Gradient Echo EPI",
 	"ScanOptions": "PFP\\SAT2\\FS",
 	"SequenceName": "epfid2d1_64",
 	"ImageType": ["ORIGINAL", "PRIMARY", "ASL", "NONE", "ND", "MOSAIC"],
@@ -97,6 +98,8 @@
 	"AcquisitionMatrixPE": 64,
 	"ReconMatrixPE": 64,
 	"BandwidthPerPixelPhaseEncode": 27.902,
+	"ParallelReductionFactorInPlane": 1,
+	"ParallelReductionFactorOutOfPlane": 1,
 	"EffectiveEchoSpacing": 0.000559996,
 	"DerivedVendorReportedEchoSpacing": 0.000559996,
 	"TotalReadoutTime": 0.0352797,
@@ -139,5 +142,5 @@
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"BidsGuess": ["perf","_acq-epfid2_run-11_asl"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20260416"
+	"ConversionSoftwareVersion": "v1.0.20260620"
 }
