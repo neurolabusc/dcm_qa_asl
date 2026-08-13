@@ -19,12 +19,13 @@
 	"ProtocolName": "T1_mprage_ns_sag_p2_iso 1.0mm_192",
 	"ScanningSequence": "GR\\IR",
 	"SequenceVariant": "SK\\SP\\MP",
+	"PulseSequenceType": "MPRAGE",
 	"ScanOptions": "IR",
 	"SequenceName": "*tfl3d1_16ns",
 	"ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "NORM", "MAGNITUDE"],
 	"NonlinearGradientCorrection": false,
 	"SeriesNumber": 5,
-	"AcquisitionTime": "11:43:9.397500",
+	"AcquisitionTime": "11:43:09.397500",
 	"AcquisitionNumber": 1,
 	"SliceThickness": 1,
 	"SAR": 0.0645192,
@@ -37,7 +38,6 @@
 	"SpoilingState": true,
 	"InversionTime": 0.925,
 	"FlipAngle": 9,
-	"PartialFourier": 1,
 	"BaseResolution": 256,
 	"ShimSetting": [
 		6773,
@@ -63,6 +63,7 @@
 	"AcquisitionMatrixPE": 256,
 	"ReconMatrixPE": 256,
 	"ParallelReductionFactorInPlane": 2,
+	"ParallelReductionFactorOutOfPlane": 1,
 	"PixelBandwidth": 150,
 	"DwellTime": 1.3e-05,
 	"ImageOrientationPatientDICOM": [
@@ -76,5 +77,5 @@
 	"InPlanePhaseEncodingDirectionDICOM": "ROW",
 	"BidsGuess": ["anat","_acq-tfl3p2_run-5_T1w"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20260416"
+	"ConversionSoftwareVersion": "v1.0.20260813"
 }

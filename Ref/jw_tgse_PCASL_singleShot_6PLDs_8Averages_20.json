@@ -19,6 +19,7 @@
 	"ProtocolName": "jw_tgse_PCASL_singleShot_6PLDs_8Averages",
 	"ScanningSequence": "EP",
 	"SequenceVariant": "SK\\SP",
+	"PulseSequenceType": "Gradient Echo EPI",
 	"ScanOptions": "SAT3\\FS",
 	"SequenceName": "tgse3d1_1260",
 	"ImageType": ["ORIGINAL", "PRIMARY", "ASL", "NONE", "ND", "MOSAIC"],
@@ -58,7 +59,6 @@
 		3.59375,
 		3.59375,
 		5	],
-	"PartialFourier": 1,
 	"BaseResolution": 64,
 	"ShimSetting": [
 		6796,
@@ -83,8 +83,11 @@
 	"PhaseEncodingSteps": 63,
 	"AcquisitionMatrixPE": 63,
 	"ReconMatrixPE": 64,
+	"ParallelReductionFactorInPlane": 1,
+	"ParallelReductionFactorOutOfPlane": 1,
 	"PixelBandwidth": 2300,
 	"DwellTime": 3.4e-06,
+	"PhaseEncodingDirection": "j-",
 	"ImageOrientationPatientDICOM": [
 		1,
 		0,
@@ -96,5 +99,5 @@
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"BidsGuess": ["perf","_acq-tgse3_run-20_asl"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20260416"
+	"ConversionSoftwareVersion": "v1.0.20260813"
 }
