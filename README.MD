@@ -13,22 +13,22 @@ The provided datasets are intentionally incomplete: only a couple volumes of dat
   * Sequence Specific Tags: InversionTime, SaturationStopTime
 
 * PASL3D
-  * Description: 2D Siemens product pulsed-ASL
-  * PulseSequenceDetails: ep2d_pcasl
+  * Description: 3D Siemens product pulsed-ASL
+  * Sequence: tgse_pasl
   * Sequence Specific Tags: BolusDuration, InversionTime
 
 * pCASL2D
-  * Description: [2D loft labpseudocontinuous ASL ](http://www.bmap.ucla.edu/about/peopledetails/danny_wang/)
-  * PulseSequenceDetails: ep2d_pcasl
+  * Description: [2D loft lab pseudocontinuous ASL ](http://www.bmap.ucla.edu/about/peopledetails/danny_wang/)
+  * Sequence: ep2d_pcasl
   * Sequence Specific Tags: LabelOffset, PostLabelDelay, NumRFBlocks, RFGap, MeanGzx10, PhiAdjust
 
 * pCASL3D
-  * Description: [3D loft labpseudocontinuous ASL ](http://www.bmap.ucla.edu/about/peopledetails/danny_wang/)
+  * Description: [3D loft lab pseudocontinuous ASL ](https://loft-lab.ini.usc.edu/index-5.html)
   * Sequence: tgse_pcasl
   * Sequence Specific Tags: RFGap, MeanGzx10, T1
 
 * pCASL2Dve
-  * Description: [3D vessel-encoded pseudocontinuous ASL](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3824178/)
+  * Description: [2D vessel-encoded pseudocontinuous ASL](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3824178/)
   * Sequence: ep2d_VEPCASL
   * Sequence Specific Tags: InversionTime, BolusDuration, TagRFFlipAngle, TagRFDuration, TagRFSeparation, MeanTagGradient, TagGradientAmplitude, TagDuration, MaximumT1Opt, InitialPostLabelDelay(s)
   * Source: [osf.io](https://osf.io/td4bx/)
@@ -38,3 +38,9 @@ The provided datasets are intentionally incomplete: only a couple volumes of dat
   * Sequence: tgse_VEPCASL
   * Sequence Specific Tags: TagRFFlipAngle, TagRFDuration, TagRFSeparation, MaximumT1Opt, Tag0, InitialPostLabelDelay(s), TagPlaneDThickness
   * Source: [osf.io](https://osf.io/td4bx/)
+
+* pCASL_loft
+  * Description: [3D loft lab multi-delay pseudocontinuous ASL ](https://loft-lab.ini.usc.edu/index-5.html) from [Wang et al. (2013; PMID: 24159561)](https://pubmed.ncbi.nlm.nih.gov/24159561/)
+  * Sequence: tgse_pcasl_loft
+  * Sequence Specific Tags: LabelingDuration, PostLabelingDelay, M0Type, ArterialSpinLabelingType, RFGap, MeanGzx10
+
