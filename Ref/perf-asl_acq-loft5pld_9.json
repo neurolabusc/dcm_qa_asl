@@ -113,7 +113,6 @@
 	"ParallelAcquisitionTechnique": "GRAPPA",
 	"ParallelReductionFactorOutOfPlane": 1,
 	"AcquisitionDuration": 12.775,
-	"NumberOfKSpaceTrajectories": 1,
 	"PixelBandwidth": 2604,
 	"DwellTime": 2.4e-06,
 	"PhaseEncodingDirection": "j-",
