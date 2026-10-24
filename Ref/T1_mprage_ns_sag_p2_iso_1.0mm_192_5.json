@@ -32,7 +32,7 @@
 	"TablePosition": [
 		0,
 		0,
-		-0	],
+		0	],
 	"EchoTime": 0.00411,
 	"RepetitionTime": 2.25,
 	"SpoilingState": true,
@@ -77,5 +77,5 @@
 	"InPlanePhaseEncodingDirectionDICOM": "ROW",
 	"BidsGuess": ["anat","_acq-tfl3p2_run-5_T1w"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20260813"
+	"ConversionSoftwareVersion": "v1.0.20261024"
 }

@@ -33,7 +33,7 @@
 	"TablePosition": [
 		0,
 		0,
-		-0	],
+		0	],
 	"EchoTime": 0.014,
 	"RepetitionTime": 2.54,
 	"FlipAngle": 90,
@@ -116,5 +116,5 @@
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"BidsGuess": ["perf","_acq-epfid2p2_run-9_asl"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20260813"
+	"ConversionSoftwareVersion": "v1.0.20261024"
 }

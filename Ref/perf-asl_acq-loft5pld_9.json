@@ -33,7 +33,7 @@
 	"TablePosition": [
 		0,
 		0,
-		-0	],
+		0	],
 	"EchoTime": 0.0267,
 	"RepetitionTime": 4.1,
 	"MTState": false,
@@ -126,5 +126,5 @@
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"BidsGuess": ["perf","_acq-tgse3p2_run-9_asl"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20260813"
+	"ConversionSoftwareVersion": "v1.0.20261024"
 }

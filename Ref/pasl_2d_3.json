@@ -33,7 +33,7 @@
 	"TablePosition": [
 		0,
 		0,
-		-0	],
+		0	],
 	"EchoTime": 0.014,
 	"RepetitionTime": 3.1,
 	"FlipAngle": 90,
@@ -68,6 +68,7 @@
 	"PercentPhaseFOV": 100,
 	"PercentSampling": 100,
 	"EchoTrainLength": 54,
+	"PartialFourierDirection": "PHASE",
 	"PhaseEncodingSteps": 54,
 	"AcquisitionMatrixPE": 72,
 	"ReconMatrixPE": 72,
@@ -112,5 +113,5 @@
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"BidsGuess": ["perf","_acq-epfid2_run-3_asl"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20260813"
+	"ConversionSoftwareVersion": "v1.0.20261024"
 }
